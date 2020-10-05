@@ -22,7 +22,7 @@ function SidebarChat(props) {
         <div className="sidebarChat">
             <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
             <div className="sidebarChat__info">
-                <h2>Room name</h2>
+                <h2>{props.name}</h2>
                 <p>last message...</p>
             </div>
         </div>
